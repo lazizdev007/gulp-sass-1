@@ -1,0 +1,9 @@
+@mixin media($size) {
+  @media (max-width: $size){
+    @content;
+  }
+}
+
+@mixin font($font-size, $line-height, $font-weight: null, $font-family: $basic-family){
+  font: $font-weight #{$font-size}/#{$line-height} $font-family;
+}

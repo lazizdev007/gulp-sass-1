@@ -1,4 +1,11 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/roboto-regular.woff") format("woff");
+  src: url("../fonts/Roboto/roboto-regular.woff") format("woff2");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/raleway-regular.woff") format("woff");
+  src: url("../fonts/Raleway/raleway-regular.woff") format("woff2");
 }

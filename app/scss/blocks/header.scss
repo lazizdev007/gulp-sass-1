@@ -1,0 +1,175 @@
+.header{
+  margin-bottom: 30px;
+  background-color: $secondary;
+  font-family: $primary-family;
+  color: #fff;
+  font-size: 13px;
+  position: relative;
+}
+
+.header__container{
+  display: flex;
+  align-items: center;
+}
+
+.header__top{
+  padding-top: 29px;
+  padding-bottom: 40px;
+  margin-bottom: 80px;
+}
+
+.logo{
+  margin-right: 63px;
+}
+
+.logo__icon{
+  display: block;
+  position: relative;
+  border: 1px solid currentColor;
+  color: #fff;
+  width: 91px;
+  height: 37px;
+}
+
+.nav{
+
+}
+
+.header__nav{
+  flex-grow: 1;
+}
+
+.nav__list{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__item{
+
+}
+.nav__link{
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  line-height: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header__destination{
+  display: flex;
+}
+
+.header__destination-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.header__destination-text{
+  font-size: 13px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.header__destination-icon{
+  flex-shrink: 0;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+.header__destination-icon--call{
+  width: 10px;
+  height: 12px;
+}
+
+.header__destination-icon--location{
+  width: 8px;
+  height: 8px;
+}
+
+.header__content{
+
+}
+
+.header__left{
+  width: 50%;
+  padding-right: 40px;
+}
+
+
+
+.header__title{
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 104px;
+}
+
+
+.header__btn{
+  padding: 19px 59px;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: $secondary;
+  background-color: $primary;
+  cursor: pointer;
+  border: 0;
+  box-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header__pic{
+  position: absolute;
+  right: 0;
+  bottom: -84px;
+  left: 50%;
+  object-fit: cover;
+  height: 506px;
+  width: 50%;
+  top: 176px;
+}
+
+.header__arrows{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  line-height: 18px;
+  font-size: 21px;
+  justify-content: flex-end;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+.header__arrow-prev{
+  margin-right: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.header__arrow-next{
+  margin-left: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+

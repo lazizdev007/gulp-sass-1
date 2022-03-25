@@ -1,3 +1,80 @@
-<header>
-    Шапка сайта
-</header>
+<div class="header">
+  <div class="container">
+    <div class="header__top header__container">
+      <a href="/" class="logo">
+        <svg aria-label="Лого" class="logo__icon">
+          <use xlink:href="#logo"></use>
+        </svg>
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Земля</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Крановые площади</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Выгрузка вагонов</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Фасовка</a>
+          </li>
+          <li class="nav__item" >
+            <a class="nav__link" href="#">Щебень</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__destination">
+        <div class="header__destination-item">
+          <a href="tel:+7 (927) 678-45-14" class="header__destination-text">
+            <svg class="header__destination-icon header__destination-icon--call">
+              <use href="#call" />
+            </svg>
+            +7 (927) 678-45-14
+          </a>
+        </div>
+
+        <div class="header__destination-item">
+          <div class="header__destination-text">
+            <svg class="header__destination-icon header__destination-icon--location">
+              <use href="#location" />
+            </svg>
+            г. Казань, Складская 20
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header__content">
+      <div class="header__slide">
+        <div class="header__left">
+          <h1 class="header__title">выгрузка вагонов, АРЕНДА ЗЕМЛИ, КРаНОВЫХ ПЛОЩАДОК, ответственное хранение</h1>
+          <a href="#" class="header__btn">Заказать</a>
+        </div>
+        <img class="header__pic" src="img/vagon.jpg" alt="">
+      </div>
+
+      <div class="header__left">
+        <div class="header__arrows">
+          <button aria-label="Стрелка влево" class="header__arrow-prev">
+            <svg width="25" height="9" viewBox="0 0 25 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25 5H1M1 5L3.5 1M1 5L4 8.5" stroke="currentColor"/>
+            </svg>
+          </button>
+
+          <span class="header__arrow-num">1 / 3</span>
+          <button aria-label="Стрелка вправо" class="header__arrow-next">
+            <svg width="25" height="9" viewBox="0 0 25 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 5H24M24 5L21.5 1M24 5L21 8.5" stroke="currentColor"/>
+            </svg>
+          </button>
+        </div>
+      </div><!----header--left------>
+    </div><!----header--content------>
+
+
+  </div>
+</div>
