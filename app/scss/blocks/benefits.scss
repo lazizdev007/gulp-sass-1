@@ -18,6 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 100px;
   counter-reset: heading-1 heading-2;
+  padding-bottom: 143px;
 }
 
 .number__item{
@@ -37,6 +38,7 @@
   color: $secondary;
   padding: 10px 14px;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-right: 40px;
   flex-shrink: 0;
@@ -44,5 +46,17 @@
 
 .number__item::after{
   counter-increment: heading-2;
-  content: "0"counter(heading-2);
+  content: counter(heading-2);
+  font-size: 80px;
+  position: absolute;
+  left: 120px;
+  top: -60px;
+  opacity: .1;
+}
+
+.number__text{
+  font-size: 16px;
+  font-family: $primary-family;
+  color: #48494d;
+  font-weight: 600;
 }
