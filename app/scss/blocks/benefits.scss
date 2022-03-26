@@ -1,0 +1,48 @@
+.benefits{
+  background-color: $white;
+}
+
+.benifits__title{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: $secondary;
+  text-align: center;
+  padding-bottom: 84px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.number__list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  counter-reset: heading-1 heading-2;
+}
+
+.number__item{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.number__item::before{
+  counter-increment: heading-1;
+  content: "0"counter(heading-1);
+  width: 51px;
+  height: 51px;
+  background-color: #ffe500;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: $secondary;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+
+.number__item::after{
+  counter-increment: heading-2;
+  content: "0"counter(heading-2);
+}
